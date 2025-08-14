@@ -1,0 +1,31 @@
+
+---
+
+### 📄 `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+src/__pycache__/
+# Environment folders
+.venv/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data files
+*.csv
+
+# Model files
+*.pkl
+
+# IDE configs
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

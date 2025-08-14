@@ -1,0 +1,9 @@
+flask==2.2.5
+prometheus-flask-exporter==0.23.2
+
+chromadb==1.0.15
+
+langchain==0.3.27
+langchain-community>=0.0.10
+sentence-transformers==2.6.1
+pypdf==3.17.4
