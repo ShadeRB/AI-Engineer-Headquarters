@@ -1,0 +1,16 @@
+model_name: mistral-7b-instruct
+method: qlora
+train_file: data/prepared/train.jsonl
+eval_file: data/prepared/eval.jsonl
+output_dir: outputs/lora-legal
+num_epochs: 2
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 2e-4
+max_seq_length: 2048
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+save_steps: 1000
+eval_steps: 1000
+logging_steps: 50

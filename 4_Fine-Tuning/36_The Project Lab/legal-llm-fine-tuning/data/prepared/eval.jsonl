@@ -1,0 +1,2 @@
+{"instruction": "Answer the question using the contract text. Cite spans.", "input": "TEXT: This contract does not mention arbitration.\nQUESTION: Does this contract include an arbitration clause?", "output": "No. Clause not present. Citation: [n/a]"}
+{"instruction": "Answer the question using the contract text. Cite spans.", "input": "TEXT: The company may terminate the contract only in case of breach.\nQUESTION: Does this contain a termination for convenience clause?", "output": "No. Termination only applies in case of breach. Citation: [§4.1]"}
